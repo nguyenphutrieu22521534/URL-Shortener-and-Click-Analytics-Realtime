@@ -1,0 +1,128 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+# If you use collectstatic to a directory, uncomment the following
+# static/
+
+# Cache and compiled migrations
+**/migrations/__pycache__/
+**/__pycache__/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# Virtual environments
+.env
+.env.*
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Sphinx
+docs/_build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+
+# Secrets and keys
+*.pem
+*.key
+credentials.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker overrides and local envs
+docker-compose.override.yml
+.env.*.local
+
+# Misc
+*.sqlite3
+*.db
+
+# Additional common ignores
+# Python-tooling and environment helpers
+.python-version
+.env.local
+.ipynb_checkpoints/
+.ropeproject/
+.cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Editor temporary / backup files
+*~
+*.swp
+*.swo
+
+# End of .gitignore
